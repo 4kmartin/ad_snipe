@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ad_snipe"
+version = "0.1.0"
+authors = [
+  {name = "Anthany Martin", email = "4kmartin@gmail.com"},
+]
+description = "Syncs AD objects to Snipe-IT"
+readme = "README.md"
+requires-python=">=3.8"
+dependencies = [
+  "returns"
+]
+
+[tools.setuptools.package-dir]
+pysnipeit = "src/ad_snipe"
